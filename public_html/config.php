@@ -48,10 +48,10 @@ define('PUBLIC_VIEW', HTTP_URL . 'public/');
 
 // Config Database
 define('DATABASE', [
-   'Port'   => '3306',
+   'Port'   => '3307',
    'Host'   => 'localhost',
    'Driver' => 'PDO',
-   'Name'   => 'local_arc',
+   'Name'   => 'arc_assessment',
    'User'   => 'admin',
    'Pass'   => 'admin',
    'Prefix' => ''
